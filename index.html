@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Personal Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/e87877793b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div id="header">
+      <div class="container">
+         <nav>
+            <div class="firsthead">
+               <p style="font-size: 80px">
+                  <span style="color:  #ff6a80;;">W</span>elcome
+               </p>
+            </div>
+            <ul class="sidemenu">
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contactme">Contact Me</a></li>
+
+               <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #ffffff;"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" style="color: #ffffff;"></i>
+
+         </nav>
+         <div class="header-text">
+            <p style="line-height:60px;color:#ababab;"> My Personal Website</p>
+            <h1> Hi, I'm <span>Ria</span> <br> Bendiganavale</h1>
+         </div>
+      </div>
+   </div>
+
+   <!--about-->
+
+   <div id="about">
+
+      <div class="container">
+
+         <div class="row">
+
+            <div class="about-col-1">
+               <img src="images/pink.svg">
+            </div>
+            <div class="about-col-2">
+               <h1>About Me</h1>
+
+               <div class="extension">
+                  <p style=" color: white"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, velit.
+                     Quae qui iure eos officia tempore voluptatibus quidem ullam obcaecati sapiente, asperiores nesciunt
+                     soluta eius. Laboriosam eligendi itaque necessitatibus ipsam. </p>
+               </div>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+                  <p class="tab-links" onclick="opentab('education')"> Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                     <li><span>UI/UX </span><br>Designing Web/App Interfaces</li>
+                     <br>
+                     <li><span>Web Development </span><br>Web App Development</li>
+                     <br>
+                     <li><span>App Development </span><br>Buidling Android/iOS Apps</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                  <ul>
+                     <li><span>First Experience </span><br>Designing Web/App Interfaces</li>
+                     <br>
+                     <li><span>Second Experience</span> </span><br>Web App Development</li>
+                     <br>
+                     <li><span>Third Experience </span><br>Buidling Android/iOS Apps</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                  <ul>
+                     <li><span>2018-2022 </span><br>Monroe Township High School</li>
+                     <br>
+                     <li><span>2022-2026</span> </span><br>Rutgers University: New Brunswick</li>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!--------services---------------->
+
+   <div id="services">
+      <div class="Services-col-1">
+         <h1>My Services</h1>
+      </div>
+
+
+
+      <div class="services-list">
+
+         <div>
+            <img src="images/2code.svg">
+            <h2 style=color:white> Web Dev</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam impedit delectus voluptas quos
+               voluptatum. Modi voluptas eos consequuntur. Aliquam asperiores, facilis minus consectetur earum velit
+               illo distinctio sapiente ab!</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <img src="images/layers.svg">
+            <h2 style=color:white>UI/UX Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis qui delectus possimus, ex
+               nostrum molestiae, sed necessitatibus iure veniam asperiores ipsam rerum aspernatur voluptate cumque
+               voluptatum accusantium ipsum modi!</p>
+            <a href="#">Learn more</a>
+         </div>
+         <div>
+            <img src="images/square.svg">
+            <h2 style=color:white>App Design </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis qui delectus possimus, ex
+               nostrum molestiae, sed necessitatibus iure veniam asperiores ipsam rerum aspernatur voluptate cumque
+               voluptatum accusantium ipsum modi!</p>
+            <a href="#">Learn more</a>
+         </div>
+
+      </div>
+   </div>
+
+
+
+
+
+
+   <!-----portfolio------>
+   <div id="portfolio">
+      <div class="container">
+         <div class="Work-col-1">
+            <h1>My Work</h1>
+            <div class="Work-details">
+               <p>Coming Soon!</p>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <!---closes for now--->
+
+
+
+   <div id="contactme">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <div class="info">
+                  <p><img src="images/edit.svg">ria.ben723@gmail.com</p>
+               </div>
+               <div class="info1">
+                  <p><img src="images/phone.svg">732-402-4805</p>
+               </div>
+               <div class="social-icons">
+                  <a href="https://www.linkedin.com/in/ria-bendiganavale-48b1a8271/"> <img
+                        src="images/linkedin.svg"></a>
+                  <a href="https://github.com/"><img src="images/github.svg"></a>
+               </div>
+               <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+               <form id="submit-to-google-sheet">
+                  <input type="text" id="Name" placeholder="Your Name" required>
+                  <input type="email" id="Email" placeholder="Your Email" required>
+                  <textarea id="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <!--<span id="msg"></span>-->
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+
+
+   <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+         for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+         }
+         for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+      }
+   </script>
+
+   <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+         sidemenu.style.right = "0";
+      }
+      function closemenu() {
+         sidemenu.style.right = "-250px";
+      }
+
+   </script>
+</body>
+
+</html>

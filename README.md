@@ -1,2 +1,2 @@
-# Ria_Website
-Ria's Landing Page
+# Ria-s-Website
+ Ria's Website
