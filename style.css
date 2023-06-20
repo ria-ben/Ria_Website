@@ -267,7 +267,13 @@ border-radius:10px;
 /*------portfolio-----*/
 
 #portfolio{
-  
+
+    margin-top:1%;
+    padding: 85px 0;
+   
+    color: #ff6a80;
+    
+    /*
     padding: 85px 0;
     color: #ff6a80;
     text-align: center;
@@ -275,7 +281,7 @@ border-radius:10px;
     width: 35vw;
     margin: auto;
     left: 0;
-    
+    */
     
 }
 
@@ -303,7 +309,7 @@ border-radius:10px;
 
 /*--------contact--------*/
 #contactme{
-    padding-top: 900px;
+    padding-top: 100px;
 }
 
 .contact-left{
