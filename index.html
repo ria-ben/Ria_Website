@@ -1,9 +1,11 @@
+<!---This is Ria Bendiganavale's Personal Website-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
    <title>Personal Portfolio</title>
    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="function.js">
    <script src="https://kit.fontawesome.com/e87877793b.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,12 +18,12 @@
                   <span style="color:  #ff6a80;;">W</span>elcome
                </p>
             </div>
-            <ul class="sidemenu">
+            <ul id="sidemenu">
                <li><a href="#header">Home</a></li>
                <li><a href="#about">About</a></li>
                <li><a href="#services">Services</a></li>
                <li><a href="#portfolio">Portfolio</a></li>
-               <li><a href="#contactme">Contact Me</a></li>
+               <li><a href="#contactme">Contact</a></li>
 
                <i class="fa-solid fa-xmark" onclick="closemenu()" style="color: #ffffff;"></i>
             </ul>
@@ -50,9 +52,7 @@
                <h1>About Me</h1>
 
                <div class="extension">
-                  <p style=" color: white"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, velit.
-                     Quae qui iure eos officia tempore voluptatibus quidem ullam obcaecati sapiente, asperiores nesciunt
-                     soluta eius. Laboriosam eligendi itaque necessitatibus ipsam. </p>
+                  <p style=" color: white"> Hi! My name is Ria Bendiganvale and I am a student at Rutgers University in New Brunswick, New Jersey. I am majoring in Computer Science as well as minoring in Economics. I am looking forward to connecting! </p>
                </div>
                <div class="tab-titles">
                   <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -61,20 +61,20 @@
                </div>
                <div class="tab-contents active-tab" id="skills">
                   <ul>
-                     <li><span>UI/UX </span><br>Designing Web/App Interfaces</li>
-                     <br>
                      <li><span>Web Development </span><br>Web App Development</li>
                      <br>
-                     <li><span>App Development </span><br>Buidling Android/iOS Apps</li>
+                     <li><span>UI/UX </span><br>Designing Web/App Interfaces</li>
+                     <br>
+                     <li><span>Backend Development</span><br>Buidling Applications with Java</li>
                   </ul>
                </div>
                <div class="tab-contents" id="experience">
                   <ul>
-                     <li><span>First Experience </span><br>Designing Web/App Interfaces</li>
+                     <li><span>Personal Website </span><br>Designing a Responsive Webite with HTML/CSS and Javascript</li>
                      <br>
-                     <li><span>Second Experience</span> </span><br>Web App Development</li>
+                     <li><span>Fitness Website</span> </span><br>Designing a Responsive Website with Modern React and APIs</li>
                      <br>
-                     <li><span>Third Experience </span><br>Buidling Android/iOS Apps</li>
+                     <li><span>2048 Clone </span><br>Developing a 2048 Clone with Java</li>
                   </ul>
                </div>
                <div class="tab-contents" id="education">
@@ -94,10 +94,8 @@
    <!--------services---------------->
 
    <div id="services">
-      <div class="Services-col-1">
-         <h1>My Services</h1>
-      </div>
-
+      <div class="container">
+      <h1 class="sub-title">My Services</h1>
 
 
       <div class="services-list">
@@ -105,28 +103,36 @@
          <div>
             <img src="images/2code.svg">
             <h2 style=color:white> Web Dev</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam totam impedit delectus voluptas quos
-               voluptatum. Modi voluptas eos consequuntur. Aliquam asperiores, facilis minus consectetur earum velit
-               illo distinctio sapiente ab!</p>
-            <a href="#">Learn more</a>
+            <p style=font-size:20px>- React</p>
+            <br>
+            <p style=font-size:20px>- Javascript</p>
+            <br> 
+            <p style=font-size:20px>- HTML</p>
+            <br>
+            <p style=font-size:20px>- CSS</p>
+           
          </div>
          <div>
             <img src="images/layers.svg">
             <h2 style=color:white>UI/UX Design</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis qui delectus possimus, ex
-               nostrum molestiae, sed necessitatibus iure veniam asperiores ipsam rerum aspernatur voluptate cumque
-               voluptatum accusantium ipsum modi!</p>
-            <a href="#">Learn more</a>
+            <p style=font-size:20px>- Figma</p>
+            <br>
+            <p style=font-size:20px>- Adobe Illustrator</p>
+            <br>
+            <p style=font-size:20px>- Adobe Photoshop</p>
+            
          </div>
          <div>
             <img src="images/square.svg">
-            <h2 style=color:white>App Design </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis qui delectus possimus, ex
-               nostrum molestiae, sed necessitatibus iure veniam asperiores ipsam rerum aspernatur voluptate cumque
-               voluptatum accusantium ipsum modi!</p>
-            <a href="#">Learn more</a>
+            <h2 style=color:white>Backend Dev </h2>
+            <p style=font-size:20px>- Java</p>
+            <br>
+            <p style=font-size:20px>- Javascript</p>
+            <br>
+            <p style=font-size:20px>- C</p>
+           
          </div>
-
+      </div>
       </div>
    </div>
 
@@ -138,12 +144,11 @@
    <!-----portfolio------>
    <div id="portfolio">
       <div class="container">
-         <div class="Work-col-1">
-            <h1>My Work</h1>
+         <h1 class="sub-title">My Work</h1>
             <div class="Work-details">
                <p>Coming Soon!</p>
             </div>
-         </div>
+         
       </div>
    </div>
 
@@ -158,11 +163,9 @@
             <div class="contact-left">
                <h1 class="sub-title">Contact Me</h1>
                <div class="info">
-                  <p><img src="images/edit.svg">ria.ben723@gmail.com</p>
+                  <p style=" color:#ababab; font-size: 25px;"><img src="images/edit.svg">ria.ben723@gmail.com</p>
                </div>
-               <div class="info1">
-                  <p><img src="images/phone.svg">732-402-4805</p>
-               </div>
+              
                <div class="social-icons">
                   <a href="https://www.linkedin.com/in/ria-bendiganavale-48b1a8271/"> <img
                         src="images/linkedin.svg"></a>
@@ -171,13 +174,13 @@
                <a href="images/my-cv.pdf" download class="btn btn2">Download Resume</a>
             </div>
             <div class="contact-right">
-               <form id="submit-to-google-sheet">
-                  <input type="text" id="Name" placeholder="Your Name" required>
-                  <input type="email" id="Email" placeholder="Your Email" required>
-                  <textarea id="Message" rows="6" placeholder="Your Message"></textarea>
+               <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="Email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                   <button type="submit" class="btn btn2">Submit</button>
-               </form>
-               <!--<span id="msg"></span>-->
+              </form>
+              <span id="msg"></span>
             </div>
 
          </div>
@@ -202,17 +205,38 @@
       }
    </script>
 
-   <script>
-      var sidemenu = document.getElementById("sidemenu");
+<script>
 
-      function openmenu() {
-         sidemenu.style.right = "0";
-      }
-      function closemenu() {
-         sidemenu.style.right = "-250px";
-      }
+   var sidemenu = document.getElementById("sidemenu");
 
-   </script>
+   function openmenu(){
+       sidemenu.style.right = "0";
+   }
+   function closemenu(){
+       sidemenu.style.right = "-300px";
+   }
+
+</script>
+
+ 
+<script>
+   const scriptURL = 'https://script.google.com/macros/s/AKfycbxRKx4OvHLrkowDmgX6tYNqflycikIKgZINYyenubPWi9bQOU2nMdxAEebUvhPUvhk/exec' 
+   const form = document.forms['submit-to-google-sheet']
+   const msg = document.getElementById("msg")
+ 
+   form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+ </script>
 </body>
 
 </html>
