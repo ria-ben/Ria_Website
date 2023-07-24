@@ -100,7 +100,7 @@ flex-wrap: wrap;
 
 .about-col-1 img{
     
-
+    flex-basis:35%;
 height: 50vh;
 width: 90%;
 border-radius:10px;
@@ -383,9 +383,9 @@ nav .fa-solid{
     display: none;
 }
 
-@media (max-width: 500px){
+@media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phonesccreen6.svg);
+        background-image: url(images/phonescreen7.svg);
       
     }
     .firsthead{
@@ -435,9 +435,17 @@ nav ul li a{
     font-size: 27px;
 }
 .about-col-1{
+    padding-top: 60px;
+    padding-bottom: 50px;
     flex-basis: 60%;
     margin-left: 100px;
     margin-top: -40%;
+}
+.about-col-1 img{
+    flex-basis: 60%;
+    height: 50vh;
+    width: 90%;
+    border-radius:10px;
 }
 .about-col-2{
     flex-basis: 90%;
