@@ -26,6 +26,7 @@ body {
 
 .firsthead{
     margin-left: -10%;
+   font-size: 80px;
 }
 .container{
     padding:10px 10% ;
@@ -83,7 +84,7 @@ color: #ff6a80;
 /*----about----*/
 
 #about{
-    padding: 180px 0;
+    padding: 170px 0;
     color: #ff6a80;
 }
 
@@ -257,11 +258,11 @@ border-radius:10px;
 .Work-col-1{
     flex-basis:100%;
     font-size: 25px;
-   padding-left: -10px;
+   padding-left: -15px;
 }
 .Work-details{
     color: #ff6a80;
-    margin-left: 430px;
+    margin-left: 440px;
     padding: 690px;
     display: grid;
     
@@ -385,19 +386,32 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phonescreen7.svg);
+        background-image: url(images/phonescreen8.svg);
       
     }
+    .container{
+        padding:7px 5% ;
+    }
     .firsthead{
-        margin-left: -35px;
+        
+        margin-left: -8px;
         padding-top: 30px;
+        font-size: 65px;
        
     }
     .header-text{
-        margin-top: 30%;
-        font-size: 20px;
+        margin-top: 40%;
+        font-size: 25px;
+        text-align: center
+       
+        
+  
+  
+  
+  
     }
     .header-text h1{
+        text-align:center;
         font-size: 50px;
     }
     nav .fa-solid{
@@ -435,21 +449,22 @@ nav ul li a{
     font-size: 27px;
 }
 .about-col-1{
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 90px;
     flex-basis: 60%;
-    margin-left: 100px;
-    margin-top: -40%;
+    margin-left: 70px;
+    margin-top: -60%;
 }
 .about-col-1 img{
     flex-basis: 60%;
     height: 50vh;
-    width: 90%;
+    width: 100%;
     border-radius:10px;
 }
 .about-col-2{
     flex-basis: 90%;
-    margin-top: -10%;
+    margin-top: -30%;
+    font-size: 20px;
     
 }
 
@@ -460,14 +475,16 @@ nav ul li a{
 
 .services-list div{
     font-size: 10px;
+    /* max-width: 100%; */
 }
 .Work-details{
-    margin-left: 60px;
+    margin-left: 30px;
+    
 }
 
 
 .Work-col-1{
-margin-left: -20px; 
+padding-right: 110px;
 }
 
 .contact-left, .contact-right{
@@ -477,7 +494,7 @@ margin-left: -20px;
 
 .sub-title{
     font-size: 50px;
-    margin-left:-41px;
+    margin-left:-5px;
     color:#ff6a80;
 }
 
