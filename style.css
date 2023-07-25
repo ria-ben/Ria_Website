@@ -394,14 +394,14 @@ nav .fa-solid{
     }
     .firsthead{
         
-        margin-left: -8px;
+        margin-left: -10px;
         padding-top: 30px;
-        font-size: 65px;
+        font-size: 60px;
        
     }
     .header-text{
         margin-top: 55%;
-        font-size: 20px;
+        font-size: 18px;
         text-align: center
        
         
@@ -412,7 +412,7 @@ nav .fa-solid{
     }
     .header-text h1{
         text-align:center;
-        font-size: 45px;
+        font-size: 40px;
     }
     nav .fa-solid{
         padding-top: 40px;
