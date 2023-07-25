@@ -464,7 +464,7 @@ nav ul li a{
     border-radius:10px;
 }
 .about-col-2{
-    flex-basis: 100%;
+    width:350px;
     margin-top: -40%;
     font-size: 20px;
    
@@ -472,17 +472,13 @@ nav ul li a{
 }
 .extension{
     font-size:15px
+   
     
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
-    }
+
 
 .tab-links{
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 40px;
 }
 
