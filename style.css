@@ -384,9 +384,9 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 550px){
     #header{
-        background-image: url(images/phonescreen8.svg);
+        background-image: url(images/phonescreen10.svg);
       
     }
     .container{
@@ -400,8 +400,8 @@ nav .fa-solid{
        
     }
     .header-text{
-        margin-top: 40%;
-        font-size: 25px;
+        margin-top: 55%;
+        font-size: 20px;
         text-align: center
        
         
@@ -412,7 +412,7 @@ nav .fa-solid{
     }
     .header-text h1{
         text-align:center;
-        font-size: 50px;
+        font-size: 45px;
     }
     nav .fa-solid{
         padding-top: 40px;
@@ -449,10 +449,12 @@ nav ul li a{
     font-size: 27px;
 }
 .about-col-1{
-    padding-top: 70px;
+    padding-top: 30px;
+    
     padding-bottom: 90px;
-    flex-basis: 60%;
-    margin-left: 70px;
+    flex-basis: 80%;
+    padding-left: 80px;
+   
     margin-top: -60%;
 }
 .about-col-1 img{
@@ -462,11 +464,22 @@ nav ul li a{
     border-radius:10px;
 }
 .about-col-2{
-    flex-basis: 90%;
-    margin-top: -30%;
+    flex-basis: 100%;
+    margin-top: -40%;
     font-size: 20px;
+   
     
 }
+.extension{
+    font-size:15px
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    }
 
 .tab-links{
     font-size: 25px;
@@ -478,7 +491,7 @@ nav ul li a{
     /* max-width: 100%; */
 }
 .Work-details{
-    margin-left: 30px;
+    margin-left: 40px;
     
 }
 
@@ -503,6 +516,9 @@ padding-right: 110px;
 }
 .info1{
     font-size: 20px;
+}
+::placeholder{
+    color: black;
 }
 }
 #msg{
