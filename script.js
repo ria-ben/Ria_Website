@@ -18,7 +18,7 @@ var tablinks = document.getElementsByClassName("tab-links");
           sidemenu.style.right = "0";
       }
       function closemenu(){
-          sidemenu.style.right = "-300px";
+          sidemenu.style.right = "-200px";
       }
 
       const scriptURL = 'https://script.google.com/macros/s/AKfycbxRKx4OvHLrkowDmgX6tYNqflycikIKgZINYyenubPWi9bQOU2nMdxAEebUvhPUvhk/exec' 
