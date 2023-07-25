@@ -400,7 +400,7 @@ nav .fa-solid{
        
     }
     .header-text{
-        margin-top: 40%;
+        margin-top: 45%;
         font-size: 18px;
         text-align: center
        
@@ -449,18 +449,21 @@ nav ul li a{
     font-size: 27px;
 }
 .about-col-1{
-    padding-top: 30px;
+  
+    padding-top: 50px;
     
-    padding-bottom: 100px;
+    padding-bottom: 110px;
     flex-basis: 70%;
-    padding-left: 150px;
+    
    
     margin-top: -60%;
 }
 .about-col-1 img{
+
     flex-basis: 60%;
+    padding-left:100px;
     height: 50vh;
-    width: 100%;
+    width: 110%;
     border-radius:10px;
 }
 .about-col-2{
@@ -487,7 +490,7 @@ nav ul li a{
     /* max-width: 100%; */
 }
 .Work-details{
-    margin-left: 75px;
+    margin-left: 40px;
     
 }
 
