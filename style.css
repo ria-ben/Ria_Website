@@ -400,7 +400,7 @@ nav .fa-solid{
        
     }
     .header-text{
-        margin-top: 55%;
+        margin-top: 50%;
         font-size: 20px;
         text-align: center
        
@@ -519,6 +519,12 @@ padding-right: 110px;
 }
 ::placeholder{
     color: black;
+}
+#msg{
+    color: #ff6a80;
+    margin-left: 110px;
+    margin-top: -40px;
+    display: block;
 }
 }
 #msg{
